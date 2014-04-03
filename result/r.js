@@ -15,9 +15,9 @@ function formatHtml(divId){
     for (var i = d.length - 1; i >= 0; i--) {
         m = d[i];
         data.push({
-            score: m[0],
-            result: m[1],
-            time: m[2],
+            score: m[1],
+            result: m[2],
+            time: m[0],
             text: m[3],
             odds: m[4]
         });
